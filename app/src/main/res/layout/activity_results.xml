@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chinese.flashcards.activities.ResultsActivity">
+
+    <TextView
+        android:id="@+id/resultsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:text="Results"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/timeToFinishView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="0s"
+        android:inputType="number"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/TimeTitleView"
+        android:layout_width="129dp"
+        android:layout_height="27dp"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:text="Time To finish deck:"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/numRightViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number Right"
+        android:textColor="@color/colorPrimary"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/numRightView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="375dp"
+        tools:text="Number Wrong" />
+
+    <EditText
+        android:id="@+id/numRightView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:id="@+id/NumWrongView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="88dp"
+        android:layout_height="115dp"
+        android:onClick="onClick"
+        android:text="Return To Main"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"></LinearLayout><![CDATA[
+
+    android:onClick="onClick" />
+]]>
+</android.support.constraint.ConstraintLayout>
